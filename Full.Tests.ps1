@@ -1,6 +1,6 @@
 # Variables
-#$ScriptPath = Split-Path -Parent $PSCommandPath
-$ScriptPath = "C:\Users\d92495j\G\_Tasks\F5 PowerShell\POSH-LTM-Rest.Tests"
+$ScriptPath = Split-Path -Parent $PSCommandPath
+#$ScriptPath = "C:\Users\d92495j\G\_Tasks\F5 PowerShell\POSH-LTM-Rest.Tests"
 $PrivateCredentialScript = $ScriptPath + "\..\Get-F5Credential.ps1"
 $PrivateConfigFile = $ScriptPath + "\..\F5-LTM-Config.json"
 
